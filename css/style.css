@@ -29,20 +29,21 @@ main {
     margin: 0 auto;
 }
 
-.card-container {
+.card-container { /* DIV CONTENITORE TUTTE CARD */
     margin:0  -20px;
     margin-top: 30px;
    
 }
 
-.float-left img {
+.float-left img {/* IMMAGINI PROFILO */
     width: 100px;
     height: 100px;
     margin-right: 20px;
     vertical-align: middle;
     
 }
-.card-container > div {
+
+.card-container > div {/* DIV CARD */
     background-color: #0f0e17;
     width: calc(100% / 3 - 40px);
     margin: 20px;
@@ -50,7 +51,9 @@ main {
     box-shadow: #0f0e17 5px 5px 20px;
 }
 
-.card-container > .float-left.clearfix p:last-child {
+
+
+.card-container > .float-left.clearfix p:last-child { /* EMAIL */
     margin-top: 10px;
     color: #00bcd4
 }
