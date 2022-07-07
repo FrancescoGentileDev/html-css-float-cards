@@ -38,6 +38,7 @@ main {
 .float-left img {
     width: 100px;
     height: 100px;
+    border-radius: 50%;
     margin-right: 20px;
     vertical-align: middle;
     
@@ -47,6 +48,7 @@ main {
     padding: 5px;
     width: calc(100% / 3 - 40px);
     margin: 20px;
+    border-radius: 16px;
     color: white;
     box-shadow: #0f0e17 5px 5px 20px;
 }
