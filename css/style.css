@@ -51,12 +51,11 @@ main {
 
 .card-text { /* TESTO CARDS*/
     padding: 15px;
-    line-height: 1.4rem;
+    line-height: 1.8rem;
 }
 
 
 a { /* EMAIL */
-    margin-top: 10px;
     display: block;
     color: #00bcd4;
     text-decoration: none;
