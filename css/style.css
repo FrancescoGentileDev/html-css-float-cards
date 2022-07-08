@@ -35,15 +35,13 @@ main {
    
 }
 
-.float-left img {/* IMMAGINI PROFILO */
-    width: 100px;
-    height: 100px;
-    margin-right: 20px;
+.card > img:first-child {/* IMMAGINI PROFILO */
+    width: 110px;
     vertical-align: middle;
     
 }
 
-.card-container > div {/* DIV CARD */
+.card-container > .card {/* DIV CARD */
     background-color: #0f0e17;
     width: calc(100% / 3 - 40px);
     margin: 20px;
@@ -51,10 +49,14 @@ main {
     box-shadow: #0f0e17 5px 5px 20px;
 }
 
+.card-text { /* TESTO CARDS*/
+    padding: 15px;
+    line-height: 1.4rem;
+}
 
 
 a { /* EMAIL */
-    margin-top: 20px;
+    margin-top: 10px;
     display: block;
     color: #00bcd4;
     text-decoration: none;
